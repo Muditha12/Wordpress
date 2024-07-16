@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I have a Secret</title>
+    <style>
+        #message {
+            display: none;
+            font-size: 24px;
+            color: red;
+            text-align: center;
+        }
+
+    </style>
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="showMessage()">Click here to see My Secret</a>
+    <div id="message">❤️ I love you! ❤️</div>
+</body>
+</html>
